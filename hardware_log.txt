@@ -1,0 +1,2 @@
+2026-10-05 20:13:18,655 | ERROR | FAULT: pyserial not installed. Run: pip install pyserial
+2026-10-05 20:14:51,052 | ERROR | FAULT: Serial connect failed: could not open port 'COM3': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)

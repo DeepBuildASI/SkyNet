@@ -1,2 +1,18 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalize line endings for all text files
+* text=auto eol=lf
+
+# Explicitly declare text files you want to always be normalized
+*.py text
+*.md text
+*.txt text
+*.yaml text
+*.yml text
+*.json text
+*.gitignore text
+*.gitattributes text
+
+# Denote files that should not be modified or merged
+*.pt binary
+*.png binary
+*.jpg binary
+*.zip binary
